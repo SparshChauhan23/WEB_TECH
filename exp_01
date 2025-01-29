@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDEU college</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #002147;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0056b3;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            padding: 14px 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://api.pdeu.ac.in/pdpu/images/65b7db9d3ffd1.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .about {
+            background-color: #f9f9f9;
+        }
+        .departments{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .departments div{
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        footer{
+            background-color: #002147;
+            color:white;
+            text-align: center;
+            padding: 1p0px 0;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Pandit Deendayal Energy University(PDEU)</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#departments">Departments</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#placements">Placement</a></li>
+            <li><a href="#student activities">Student Activities</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Empowering Education & Innovation</h1>
+        </div>
+
+        <section id="about" class="about">
+            <h2>About PDEU</h2>
+            <p></p>PDEU was established as a Petroleum University in 2007 with a focus on fossil fuels and later emerged as India's 
+            only energy university in the year 2021, dedicated to energy education and research. 
+            Today, the university has marked its presence as a renowned institution with noteworthy national and international visibility. 
+            PDEU is aggresively contributing towards Nation's AatmaNirbharBharat Abhiyan.Pandit Deendayal Energy University(PDEU) offers quality
+            education in the fields of engineering, Management and Liberal Studies.
+            It aims to nurture professionals with a focus on innovation and research.</p>
+        </section>
+
+        <section id="departments">
+            <h2>Deparments</h2>
+            <div class="departments">
+                <div>
+                    <h3>School of Technology</h3>
+                    <img src="https://api.pdeu.ac.in/pdpu/images/6107b07c73b65.jpeg" alt="Example Image" width="150" height="150">
+
+               
+                    <p>Focuses on engineeering and technological research.</p>
+                </div>
+                <div>
+                    <h3>School of Management</h3>
+                    <img src="https://api.pdeu.ac.in/pdpu/images/61079c304f095.jpeg" alt="Example Image" width="150" height="150">
+
+                    <p>Offers programs to develop future buisness leaders.</p>
+                </div>
+                <div>
+                    <h3>School of Liberal Studies</h3>
+                    <img src="https://api.pdeu.ac.in/pdpu/images/6107ae13d10b6.jpeg" alt="Example Image" width="150" height="150">
+
+                    <p>Provides eduaction in arts,humanities and social sciences.</p>
+                </div>
+                <div>
+                    <h3>School of Energy Technology</h3>
+                    <img src="https://api.pdeu.ac.in/pdpu/images/6107af987f0e1.jpeg" alt="Example Image" width="150" height="150">
+
+                    <p>Specializes in petroleum engineering and energy studies.</p>
+                </div>
+            </div>
+            </section>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Email: info@pdeu.ac.in</p>
+                <p>Phone: +91-79-2327-5060</p>
+                <p>Address: PDEU Campus, Gandhinagar, Gujarat, India</p>
+            </section>
+
+            <footer>
+                <p>&copy; 2025 Pandit Deendayal Energy University. All rights reserved</p>
+            </footer>
+</body>
+</html>
