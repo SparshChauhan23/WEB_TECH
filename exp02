@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANDIT DEENDAYAL ENERGY UNIVERSITY</title>
+    <style> 
+        h1{
+            text-align: center;
+            font-size: 20px;    
+       
+        }
+
+        h2{
+            text-align: center;
+            font-size:15px
+        }
+
+        h3{
+            text-align: center;
+            font-size:16px
+        }
+
+        h4{
+            text-align: center;
+            font-size:15px
+        }
+    </style>
+</head>
+<body>
+   <h1 style="color:red">PANDIT DEENDAYAL ENERGY UNIVERSITY</h1>
+   <h2>SCHOOL OF TECHNOLOGY</h2>
+   <h3>INFORMATION & COMMUNICATION TECHNOLOGY</h3>
+   <h4>TIME TABLE: SEM 6(DIV II) Batch:- H5</h4>
+
+   <table border="2" style="text-align: center;">
+    <tr>
+        <tH>DAY</tH>
+        <th>8:00a.m-8:55a.m</th>
+        <th>9:00a.m-9:55a.m</th>
+        <th>10:00a.m-10:55a.m</th>
+        <th>10:55a.m-11:10a.m</th>
+        <th>11:00a.m-12:05p.m</th>
+        <th>12:05p.m-1:05p.m</th>
+        <th>1:05p.m-2:05p.m</th>
+        <th>2:10p.m-3:05p.m</th>
+        <th>3:05p.m-4:00p.m</th>
+        <th>4:00p.m-4:15p.m</th>
+        <th>4:15p.m-5:10p.m</th>
+        <th>5:10p.m-6:05p.m</th>
+        <th>6:05p.m-7:00p.m</th>
+        </tr>
+
+        <tr>
+            <td>MONDAY</td>
+            <td></td>
+            <td colspan='2'>Embedded System Lab(F204)</td>
+            <td style="color:orangered"> Short Break</td>
+            <td>AI Systems(F404)</td>
+            <td style="color:chartreuse">Lunch Break</td>
+            <td>Embedded System(E201)</td>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+
+        <tr>
+            <td>TUESDAY</td>
+            <td></td><td></td>
+            <td>AI System(F404)</td>
+            <td style="color:orangered"> Short Break</td>
+            <td colspan="2">Cloud Architecture and Compuitng Lab(E212)</td>
+            <td style="color:chartreuse">Lunch Break</td>
+            <td colspan="2">Communication skills(E203)</td>
+            <td style="color:orangered"> Short Break</td>
+            <td></td>
+            <td>CDC Training(C201/1)</td><td></td><td></td>
+        </tr>
+
+        <tr>
+            <td>WEDNESDAY</td>
+            <td></td><td colspan="2">Web Technology Lab(E203)</td>
+            <td style="color:orangered"> Short Break</td>
+            <td>Embedded System(E203)</td>
+            <td>Computer comm. & Networking(E203)</td>
+            <td style="color:chartreuse">Lunch Break</td>
+            <td colspan="2">Computer comm. & Networking Lab(E112-113)</td>
+            <td style="color:orangered"> Short Break</td>
+            <td>Industry 4.0(F402)</td>
+            <td>Web tech(E112-113)</td><td></td>
+        </tr>
+
+        <tr>
+            <td>THURSDAY</td>
+            <td></td><td></td>
+            <td>Cloud Architecture(E201)</td>
+            <td style="color:orangered",rowspan="3"> Short Break</td>
+            <td colspan="2">AI Systems Lab(E112-113)</td>
+            <td style="color:chartreuse">Lunch Break</td>
+            <td colspan="2">Industry 4.0 Lab(E009)</td>
+            <td style="color:orangered"> Short Break</td>
+            <td>Industry 4.0(F402)</td>
+            <td>Web Tech(E112-113)</td><td></td>
+        </tr>
+
+        <tr>
+            <td>FRIDAY</td>
+            <td></td><td>AI System(E201)</td>
+            <td>computer comm. & networking(E203)</td>
+            <td style="color:orangered"> Short Break</td>
+            <td>Embedded System(E203)</td>
+            <td style="color:chartreuse">Lunch Break</td>
+            <td>Cloud Architecture & computing(E201)</td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+   </table>
+</body>
+</html>
